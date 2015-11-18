@@ -31,7 +31,6 @@ class Agenda ():
         self.editNome = Entry(self.group)
         self.editNome.grid(row=1,column=2)
 
-
         self.labelEmail = Label(self.group,text="Email:")
         self.labelEmail.grid(row=2,column=1)
 
