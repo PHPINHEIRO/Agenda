@@ -47,9 +47,6 @@ class Agenda ():
         self.btGravar = Button(self.group,text="Gravar" ,command = self.gravar)
         self.btGravar.grid(row = 1,column=3)
 
-        self.btMostrar = Button(self.group,text="Mostrar" ,command = self.showContatos)
-        self.btMostrar.grid(row = 2,column=3)
-
         self.btDeletar = Button(self.group,text = "Deletar",command = self.deleteContato)
         self.btDeletar.grid(row = 3,column = 3)
 
